@@ -28,6 +28,7 @@
 package de.fraunhofer.fokus.upnp.core_av.control_point;
 
 import java.util.Enumeration;
+import java.util.List;
 import java.util.Vector;
 
 import org.apache.log4j.Logger;
@@ -747,5 +748,4 @@ public class MediaServerCPDevice extends TemplateCPDevice implements Runnable, I
     }
     super.terminate();
   }
-
 }

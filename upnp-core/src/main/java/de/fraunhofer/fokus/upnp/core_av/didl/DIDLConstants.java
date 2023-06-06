@@ -55,6 +55,8 @@ public class DIDLConstants
 
   public final static String UPNP_ALBUM             = "upnp:album";
 
+  public final static String UPNP_ALBUM_ART         = "upnp:albumArtURI";
+    
   public final static String UPNP_ARTIST            = "upnp:artist";
 
   public final static String UPNP_CLASS             = "upnp:class";

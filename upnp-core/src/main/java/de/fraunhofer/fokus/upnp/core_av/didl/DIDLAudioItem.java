@@ -129,6 +129,10 @@ public class DIDLAudioItem extends DIDLItem
     {
       result += "<" + DIDLConstants.UPNP_GENRE + ">" + getGenre() + "</" + DIDLConstants.UPNP_GENRE + ">";
     }
+    if (((DIDLResource)getResources().elementAt(1)) != null)
+    {
+        result += "<" + DIDLConstants.UPNP_ALBUM_ART + ">" + ((DIDLResource)getResources().elementAt(1)).getValue() + "</" + DIDLConstants.UPNP_ALBUM_ART + ">";
+    }
 
     return result;
   }

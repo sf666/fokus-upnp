@@ -2,3 +2,6 @@
 .settings
 .classpath
 target
+res/device_cache
+.factorypath
+AVEntity.xml

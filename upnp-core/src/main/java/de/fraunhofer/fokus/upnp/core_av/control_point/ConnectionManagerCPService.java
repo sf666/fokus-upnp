@@ -67,6 +67,7 @@ public class ConnectionManagerCPService
   /** Retrieves the protocols this media renderer can understand. */
   public void getProtocolInfo()
   {
+      
     CPAction action = cpService.getCPAction(UPnPAVConstant.ACTION_GET_PROT_INFO);
 
     try

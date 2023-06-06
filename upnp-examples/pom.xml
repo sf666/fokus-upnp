@@ -5,7 +5,7 @@
   <parent>
     <artifactId>fokus-upnp</artifactId>
     <groupId>de.fraunhofer.fokus</groupId>
-    <version>1.1</version>
+    <version>1.1-ik</version>
   </parent>
   <artifactId>upnp-examples</artifactId>
   <name>upnp-examples</name>
